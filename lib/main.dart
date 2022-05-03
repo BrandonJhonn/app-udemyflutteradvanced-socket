@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter App',
-        initialRoute: 'status',
+        initialRoute: 'home',
         routes: {
           'home': (_) => const HomeView(),
           'status': (_) => const StatusView()
